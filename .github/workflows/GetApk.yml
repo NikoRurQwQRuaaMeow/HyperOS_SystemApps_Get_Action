@@ -1,4 +1,4 @@
-name: Get HyperOS System Apps
+name: Get HyperOS system file
 on:
   workflow_dispatch:
     inputs:
@@ -7,7 +7,6 @@ on:
         required: true
       file_name:
         description: "待提取文件名称"
-        required: true
 
 jobs:
   build:
